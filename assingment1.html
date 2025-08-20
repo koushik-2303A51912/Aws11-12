@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>National Technical Symposium 2025 — University Dept.</title>
+  <meta name="description" content="National Technical Symposium 2025 — students, researchers & industry innovators. Workshops, keynotes, contest & registration." />
+
+  <style>
+    /* Simple modern reset */
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;line-height:1.45;color:#1f2937;background:#f6f7fb}
+
+    /* Layout */
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    header{background:linear-gradient(90deg,#0ea5a4,#0369a1);color:#fff;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:8px;background:#fff3;border:2px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700;color:#0369a1}
+    nav{margin-left:auto}
+    .navlinks{display:flex;gap:12px;align-items:center}
+    .navlinks a{color:rgba(255,255,255,0.95);text-decoration:none;padding:8px 10px;border-radius:6px}
+    .navlinks a:hover{background:rgba(255,255,255,0.08)}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;padding:36px 0}
+    .hero h1{font-size:28px;margin:0 0 8px}
+    .meta{color:#064e3b;font-weight:600;margin-bottom:8px}
+    .cta{display:flex;gap:12px;margin-top:14px}
+    .btn{background:#0ea5a4;color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer;font-weight:600}
+    .btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.08);color:#0b1220}
+
+    /* Card */
+    .card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 6px 20px rgba(11,18,32,0.06)}
+
+    /* Grid sections */
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+
+    /* Speakers */
+    .speaker{display:flex;gap:12px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:8px;background:linear-gradient(135deg,#fde68a,#fca5a5);display:flex;align-items:center;justify-content:center;font-weight:700;color:#07172a}
+
+    /* Schedule */
+    .schedule-item{display:flex;gap:12px;align-items:flex-start;border-bottom:1px dashed #eef2f7;padding:12px 0}
+    .time{min-width:88px;font-weight:700;color:#0b3940}
+
+    /* Form */
+    form input, form select, form textarea{
+      width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef7;background:#fbfdff;
+      font-size:15px;margin-top:8px;
+    }
+    form label{font-weight:600;font-size:14px}
+    form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .footer{margin:28px 0 60px;color:#475569;text-align:center}
+
+    /* Footer */
+    footer{padding:18px 0;color:#667085;background:linear-gradient(180deg,#eef2f7,transparent);}
+
+    /* Responsive */
+    @media(max-width:940px){
+      .hero{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:repeat(2,1fr)}
+      .navlinks{display:none}
+    }
+    @media(max-width:560px){
+      .grid-3{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      .brand{gap:8px}
+      .logo{width:48px;height:48px}
+      .hero h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container" style="display:flex;align-items:center">
+      <div class="brand">
+        <div class="logo">NTS</div>
+        <div>
+          <div style="font-weight:800;font-size:18px">National Technical Symposium</div>
+          <div style="font-size:13px;opacity:0.95">University Department • 15–17 Oct 2025</div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#workshops">Workshops</a>
+          <a href="#register">Register</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section class="hero">
+      <div>
+        <div class="card">
+          <div class="meta">National • Technical • Symposium</div>
+          <h1>Connecting students, researchers & industry innovators</h1>
+          <p>Three days of talks, hands-on workshops, student competitions and networking. Participate in keynote sessions, submit papers, and join specialized workshops led by industry leaders.</p>
+
+          <div class="cta">
+            <a class="btn" href="#register">Register Now</a>
+            <a class="btn ghost" href="#program">View Program</a>
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:12px;color:#475569;font-size:13px">
+            <div>📍 University Auditorium</div>
+            <div>🎟️ Student ₹500 • Professional ₹2000</div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin-top:0">Important Dates</h3>
+          <ul style="margin:8px 0 0;padding-left:18px;color:#334155">
+            <li>Abstract submission: 15 Aug 2025</li>
+            <li>Full paper: 1 Sep 2025</li>
+            <li>Registration deadline: 30 Sep 2025</li>
+          </ul>
+          <hr style="margin:12px 0;border:none;border-top:1px solid #eef2f7">
+          <div style="font-size:13px;color:#0b6f5b;font-weight:700">Contact: events@university.edu</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">About The Symposium</h2>
+        <p>The National Technical Symposium 2025 aims to promote knowledge exchange between academia and industry. We invite students, researchers, and professionals to present innovative projects, attend workshops, and network with peers.</p>
+        <div style="display:flex;gap:12px;margin-top:12px">
+          <div style="flex:1">
+            <strong>Tracks</strong>
+            <ul>
+              <li>Artificial Intelligence & Machine Learning</li>
+              <li>Cloud, DevOps & Cybersecurity</li>
+              <li>Robotics & Embedded Systems</li>
+            </ul>
+          </div>
+          <div style="flex:1">
+            <strong>Why attend?</strong>
+            <ul>
+              <li>Keynotes by industry leaders</li>
+              <li>Hands-on workshops & labs</li>
+              <li>Student paper awards & internships</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speakers -->
+    <section id="speakers" style="margin-top:18px">
+      <h2>Featured Speakers</h2>
+      <div class="grid-3" style="margin-top:12px">
+        <div class="card speaker">
+          <div class="avatar">AK</div>
+          <div>
+            <div style="font-weight:800">Dr. A. Kumar</div>
+            <div style="font-size:13px;color:#64748b">AI Research Lead, TechCorp</div>
+            <div style="margin-top:8px;font-size:13px">Talk: Responsible AI in Education</div>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <div class="avatar">MS</div>
+          <div>
+            <div style="font-weight:800">Ms. M. Sinha</div>
+            <div style="font-size:13px;color:#64748b">Cloud Security Architect, SecureCloud</div>
+            <div style="margin-top:8px;font-size:13px">Talk: Cloud Security for Universities</div>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <div class="avatar">RP</div>
+          <div>
+            <div style="font-weight:800">Prof. R. Patel</div>
+            <div style="font-size:13px;color:#64748b">Robotics Lab, Tech Univ.</div>
+            <div style="margin-top:8px;font-size:13px">Demo: Autonomous Mobile Robots</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" style="margin-top:18px">
+      <h2>Sample Day — Schedule (Oct 15)</h2>
+      <div class="card" style="margin-top:12px">
+        <div class="schedule-item">
+          <div class="time">09:00 — 09:30</div>
+          <div><strong>Registration & Breakfast</strong><div style="font-size:13px;color:#475569">Venue: Main Lobby</div></div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="time">09:30 — 10:30</div>
+          <div><strong>Inaugural & Keynote</strong><div style="font-size:13px;color:#475569">Plenary Hall</div></div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="time">11:00 — 13:00</div>
+          <div><strong>Parallel Sessions & Paper Presentations</strong><div style="font-size:13px;color:#475569">Rooms A, B, C</div></div>
+        </div>
+
+        <div class="schedule-item">
+          <div class="time">14:00 — 17:00</div>
+          <div><strong>Workshops (Hands-on)</strong><div style="font-size:13px;color:#475569">Robotics Lab & Cloud Lab</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workshops -->
+    <section id="workshops" style="margin-top:18px">
+      <h2>Workshops & Competitions</h2>
+      <div class="grid-2" style="margin-top:12px">
+        <div class="card">
+          <h3 style="margin-top:0">AI Workshop</h3>
+          <p>Intro to building ML pipelines, model deployment and MLOps concepts. Hands-on labs with Python and Docker.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Robotics Bootcamp</h3>
+          <p>Design and program embedded robots. Topics: sensors, path planning, ROS basics and simulation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" style="margin-top:18px">
+      <h2>Register</h2>
+      <div class="card" style="margin-top:12px">
+        <form id="regForm" onsubmit="submitForm(event)">
+          <div class="row">
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" required placeholder="Your full name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.edu" />
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <label for="aff">Affiliation / Institution</label>
+            <input id="aff" name="aff" placeholder="Your University or Company" />
+          </div>
+
+          <div style="margin-top:12px">
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+              <option value="">-- select --</option>
+              <option>Student — ₹500</option>
+              <option>Professional — ₹2000</option>
+              <option>Speaker / Organizer — Complimentary</option>
+            </select>
+          </div>
+
+          <div style="margin-top:12px">
+            <label for="notes">Notes / Paper Title (optional)</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Paper title or other notes"></textarea>
+          </div>
+
+          <div style="margin-top:12px;display:flex;gap:10px">
+            <button class="btn" type="submit">Submit Registration</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+
+          <div id="regMsg" style="margin-top:12px;color:#065f46;font-weight:700;display:none"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="margin-top:18px">
+      <h2>Contact & Venue</h2>
+      <div class="grid-2" style="margin-top:12px">
+        <div class="card">
+          <h3 style="margin-top:0">Event Office</h3>
+          <p>Department of Computer Science<br/>University Campus, City, State</p>
+          <p>Email: events@university.edu<br/>Phone: +91-XXXXXXXXXX</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Venue</h3>
+          <p>University Auditorium<br/>Capacity: 800</p>
+          <p style="font-size:13px;color:#475569">Public transport available. Accommodation recommendations will be posted soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <small>© 2025 University Department — National Technical Symposium. All rights reserved.</small>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div style="font-weight:700">National Technical Symposium 2025</div>
+      <div style="font-size:13px;color:#475569">Follow: [Twitter] [LinkedIn] — Organised by University Dept.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Minimal frontend: mock form submit
+    function submitForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value || 'Participant';
+      const msg = document.getElementById('regMsg');
+      msg.style.display = 'block';
+      msg.innerText = `Thanks ${name}! Registration received. We'll contact you via email.`;
+      // In real site: POST to API endpoint or server-side script
+      e.target.reset();
+    }
+  </script>
+
+</body>
+</html>
